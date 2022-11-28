@@ -6,4 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if n<len(s):
+        return s[n]
+    else:
+        return 0
+print(main('world',4))
